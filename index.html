@@ -16,6 +16,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
   </head>
   <body>
     <header class="header-page">
@@ -26,8 +28,8 @@
           >
           <ul class="navigation">
             <li class="items"><a href="" class="link active">Studio</a>
-              <!-- <div class="line"></div> -->
-            </li>
+             <div class="line"></div> 
+    </li>
             <li class="items">
               <a href="portfolio.html" class="link">Portfolio</a>
             </li>
@@ -48,56 +50,80 @@
           </ul>
         </address>
       </div>
-    </header>
-
+    </header> 
     <main>
-      <section class="section-first">
-        <div class="conteiner">
+        <section class="section-first">
+        <div class="conteiner hero">
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
-              <button data-modal-close class="btn-close" >
-               <svg class="btn-clo"> 
-                <use  href="./images/icons.svg/close.svg#icon-close-black-18dp-2-1"></use>
+              <button data-modal-close class="btn-close">
+                <svg class="btn-clo">
+                  <use
+                    href="./images/icons.svg/close.svg#icon-close-black-18dp-2-1"
+                  ></use>
                 </svg>
               </button>
               <div class="modal-form">
-                <p class="text-modal">Leave your contacts and we will call you back</p>
+                <p class="text-modal">
+                  Leave your contacts and we will call you back
+                </p>
                 <form>
-                <div class="form-field">  
-                    
-                  <label for="name"> Name
-                  </label>
-                 <input  class="input-form"type="name" id="name">
-                  <svg class="modal-svg" width="18" height="24">
-                            <use class="modal-use" href="./images/icons.svg/icons.svg#icon-person-black-18dp-1"></use>
-                          </svg>
-                      </div>
-                     <div class="form-field">
-                      <label for="tel">Phone
-                         
-                      </label>
-                      <input  class="input-form"type="tel" id="tel">
-                      <svg class="modal-svg" width="18" height="24">
-                            <use class="modal-use" href="./images/icons.svg/icons.svg#icon-phone-black-18dp-1"></use>
-                          </svg>
-                    </div> 
-                    <div class="form-field">
-                       <label for="email">Email
-                       
-                       </label>
-                        <input  class="input-form"type="email" id="email">
-                         <svg class="modal-svg" width="18" height="24">
-                            <use class="modal-use" href="./images/icons.svg/icons.svg#icon-email-black-18dp-1"></use>
-                          </svg>
-                    </div>
                   <div class="form-field">
-                      <label for="Comment">Comment</label>
-                       <textarea   class="textarea-form"name="" id="Comment" cols="30"  rows="10" placeholder="Text input"></textarea>
+                    <label for="name"> Name </label>
+                    <input class="input-form" type="name" id="name" />
+                    <svg class="modal-svg" width="18" height="24">
+                      <use
+                        class="modal-use"
+                        href="./images/icons.svg/icons.svg#icon-person-black-18dp-1"
+                      ></use>
+                    </svg>
                   </div>
-                 <div class="form-check">
-                   <input class="checkbox visually-hidden"  type="checkbox" name=""  id="policy"   />
-                  <label class="label-checkbox" for="policy" >I accept the terms and conditions of the<a class="privacy" href="#">Privacy Policy</a></label>
-                 </div>
+                  <div class="form-field">
+                    <label for="tel">Phone </label>
+                    <input class="input-form" type="tel" id="tel" />
+                    <svg class="modal-svg" width="18" height="24">
+                      <use
+                        class="modal-use"
+                        href="./images/icons.svg/icons.svg#icon-phone-black-18dp-1"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="form-field">
+                    <label for="email">Email </label>
+                    <input class="input-form" type="email" id="email" />
+                    <svg class="modal-svg" width="18" height="24">
+                      <use
+                        class="modal-use"
+                        href="./images/icons.svg/icons.svg#icon-email-black-18dp-1"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="form-field">
+                    <label for="Comment">Comment</label>
+                    <textarea
+                      class="textarea-form"
+                      name=""
+                      id="Comment"
+                      cols="30"
+                      rows="10"
+                      placeholder="Text input"
+                    ></textarea>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="checkbox visually-hidden"
+                      type="checkbox"
+                      name=""
+                      id="policy"
+                    />
+                    <label class="label-checkbox" for="policy"
+                      >I accept the terms and conditions of the<a
+                        class="privacy"
+                        href="#"
+                        >Privacy Policy</a
+                      ></label
+                    >
+                  </div>
                   <button class="button-send" type="submit">Send</button>
                 </form>
               </div>
@@ -107,7 +133,9 @@
             Effective Solution <br />
             Your Business
           </h1>
-          <button data-modal-open type="button" class="button-order">Order Service</button>
+          <button data-modal-open type="button" class="button-order">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section-features">
@@ -115,8 +143,8 @@
           <h2 hidden>features</h2>
           <ul class="features-list">
             <li>
-             <div class="icon-btn"> 
-              <svg class="icon-img">
+              <div class="icon-btn">
+                <svg class="icon-img">
                   <use
                     href="./images/icons.svg/symbol-defs.svg#icon-antenna1"
                   ></use>
@@ -130,7 +158,7 @@
             </li>
 
             <li>
-              <div class="icon-btn">    
+              <div class="icon-btn">
                 <svg class="icon-img">
                   <use
                     href="./images/icons.svg/symbol-defs.svg#icon-clock1"
@@ -145,14 +173,14 @@
             </li>
 
             <li>
-             <div class="icon-btn"> 
-              <svg class="icon-img">
+              <div class="icon-btn">
+                <svg class="icon-img">
                   <use
                     href="./images/icons.svg/symbol-defs.svg#icon-diagram1"
-                    ></use>
+                  ></use>
                 </svg>
-             </div>
-                 <h3 class="section-list">Diligence</h3>
+              </div>
+              <h3 class="section-list">Diligence</h3>
               <p class="section-p">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -176,30 +204,38 @@
           </ul>
         </div>
       </section>
-      <section class="section-img">
+     <section class="section-img">
         <div class="conteiner">
           <h2 class="section-title">What are we doing</h2>
           <ul class="list-img">
             <li class="img">
-              <img src="./images/rectangle71.jpg" alt="Web site" width="360" />
+              <img srcset="./images/rectangle71.jpg 1x,
+              ./images/rectengle(1)2x.jpg 2x"
+              src="./images/rectangle71.jpg" alt="Web site" width="360" />
             </li>
             <li class="img">
-              <img src="./images/rectangle71(1).jpg" alt="App" width="360" />
+              <img srcset="./images/rectangle71(1).jpg 1x,
+              ./images/rectengle(2)2x.jpg2x"
+              src="./images/rectangle71(1).jpg" alt="App" width="360" />
             </li>
             <li class="img">
-              <img src="./images/rectangle71(2).jpg" alt="Design" width="360" />
+              <img srcset="./images/rectangle71(2).jpg 1x,
+              ./images/rectangle(3)2x.jpg 2x"
+              src="./images/rectangle71(2).jpg" alt="Design" width="360" />
             </li>
           </ul>
         </div>
       </section>
-      <section class="section">
+       <section class="section">
         <div class="conteiner">
           <h2 class="section-h">Our Team</h2>
           <ul class="team">
             <li class="cards-team">
-              <img src="./images/img.jpg" alt="Mark Guerrero" width="264" />
+              <img srcset="./images/img.jpg 1x,
+              ./images/img2x.jpg 2x"
+              src="./images/img.jpg" alt="Mark Guerrero" width="264" />
               <div class="team-div">
-                <h3 class="section-list">Mark Guerrero</h3>
+                <h3 class="section-list-team">Mark Guerrero</h3>
                 <p class="team-p">Product Designer</p>
                 <ul class="team-icon">
                   <li class="icon-li">
@@ -243,9 +279,11 @@
             </li>
 
             <li class="cards-team">
-              <img src="./images/img(1).jpg" alt="Tom Ford" width="264" />
+              <img srcset="./images/img(1).jpg 1x,
+              ./images/img(1)2x.jpg 2x"
+              src="./images/img(1).jpg" alt="Tom Ford" width="264" />
               <div class="team-div">
-                <h3 class="section-list">Tom Ford</h3>
+                <h3 class="section-list-team">Tom Ford</h3>
                 <p class="team-p">Frontend Developer</p>
                          <ul class="team-icon">
                   <li class="icon-li">
@@ -289,9 +327,11 @@
             </li>
 
             <li class="cards-team">
-              <img src="./images/img(2).jpg" alt="Camila Garcia" width="264" />
+              <img srcset="./images/img(2).jpg 1x,
+              ./images/img(2)2x.jpg 2x"
+              src="./images/img(2).jpg" alt="Camila Garcia" width="264" />
               <div class="team-div">
-                <h3 class="section-list">Camila Garcia</h3>
+                <h3 class="section-list-team">Camila Garcia</h3>
                 <p class="team-p">Marketing</p>
                          <ul class="team-icon">
                   <li class="icon-li">
@@ -335,9 +375,11 @@
             </li>
 
             <li class="cards-team">
-              <img src="./images/img(3).jpg" alt="Daniel Wilson" width="264" />
+              <img srcset="./images/img(3).jpg 1x,
+              ./images/img(3)2x.jpg 2x"
+              src="./images/img(3).jpg" alt="Daniel Wilson" width="264" />
               <div class="team-div">
-                <h3 class="section-list">Daniel Wilson</h3>
+                <h3 class="section-list-team">Daniel Wilson</h3>
                 <p class="team-p">UI Designer</p>
                          <ul class="team-icon">
                   <li class="icon-li">
@@ -381,7 +423,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
       <section class="section-customers">
        <div class="conteiner">
         <h2 class="title-customers">Customers</h2>
@@ -424,12 +466,12 @@
           </li>
         </ul>
       </div>
-      </section>
+      </section> 
     </main>
-    <footer class="footer">
+     <footer class="footer">
       <div class="conteiner">
         <div  class="social-media">
-           <div>
+           <div class="first-footer">
            <a href="./index.html" class="studio-f"
           ><span class="web-f">WEB</span>STUDIO</a
         >
@@ -481,7 +523,7 @@
                 </ul>
         </div>
         <form class="footer-form">
-          <h3 class="social-title">Subscribe</h3>
+          <h3 class="social-title-2">Subscribe</h3>
         <div class="footer-div">
             <label class="label-text" >
              <input class="label-footer" type="email" name="email" placeholder="E-mail">
@@ -496,7 +538,7 @@
         </div>
       </div>
 
-    </footer>
+    </footer> 
     <script src="./js/modal.js"></script>
   </body>
 </html>
