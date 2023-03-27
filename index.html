@@ -22,21 +22,35 @@
   <body>
     <header class="header-page">
       <div class="conteiner main-nav">
-        <nav class="site-nav">
           <a href="./index.html" class="studio"
             ><span class="web">WEB</span>STUDIO</a
           >
-          <ul class="navigation">
+          <button js-open-menu class="button-menu " type="button">
+            <svg class="menu-svg">
+              <use href="./images/icons.svg/tg.svg#icon-charm_menu-hamburger">
+              </use>
+            </svg>
+          </button>
+          <div js-menu-container class="header-nav ">
+              <button js-close-menu class="btn-nav " type="button">
+                <svg class="btn-clo">
+                  <use
+                    href="./images/icons.svg/close.svg#icon-close-black-18dp-2-1"
+                  ></use>
+                </svg>
+              </button>
+              <nav class="site-nav">
+            <ul class="navigation">
             <li class="items"><a href="" class="link active">Studio</a>
-             <div class="line"></div> 
-    </li>
+             <div class="line">
+                    </li>
             <li class="items">
               <a href="portfolio.html" class="link">Portfolio</a>
             </li>
             <li class="items"><a href="" class="link">Contacts</a>
           </li>
           </ul>
-        </nav>
+       
         <address class="address-list">
           <ul class="auth-nav">
             <li class="items">
@@ -49,8 +63,48 @@
             </li>
           </ul>
         </address>
+         </nav>
+          <ul class="team-icon-mob">
+                  <li class="icon-li-mob">
+                    <a href="#" class="icon-bgr"
+                      ><svg class="icon-list">
+                        <use class="icon-social"
+                          href="./images/icons.svg/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-li-mob">
+                    <a href="#" class="icon-bgr"
+                      ><svg class="icon-list">
+                        <use class="icon-social"
+                          href="./images/icons.svg/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li class="icon-li">
+                  <li class="icon-li-mob">
+                    <a href="#" class="icon-bgr"
+                      ><svg class="icon-list">
+                        <use class="icon-social"
+                          href="./images/icons.svg/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-li-mob">
+                    <a href="#" class="icon-bgr"
+                      ><svg class="icon-list">
+                        <use class="icon-social"
+                          href="./images/icons.svg/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
       </div>
-    </header> 
+    </header>  
     <main>
         <section class="section-first">
         <div class="conteiner hero">
@@ -209,8 +263,7 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="list-img">
             <li class="img">
-              <img srcset="./images/rectangle71.jpg 1x,
-              ./images/rectengle(1)2x.jpg 2x"
+              <img srcset="./images/rectangle71.jpg 1x, ./images/rectengle(1)2x.jpg 2x"
               src="./images/rectangle71.jpg" alt="Web site" width="360" />
             </li>
             <li class="img">
@@ -540,5 +593,6 @@
 
     </footer> 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
