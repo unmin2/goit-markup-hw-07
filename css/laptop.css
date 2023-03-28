@@ -8,6 +8,9 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .web {
+    padding: 0;
+  }
   .icon-btn {
     display: flex;
     justify-content: center;
@@ -169,9 +172,7 @@
   .navigation {
     display: flex;
   }
-  .site-nav .link {
-    position: static;
-  }
+
   .address-list {
     text-decoration: none;
     color: var(--primery-text-color);
@@ -191,6 +192,7 @@
   .auth-nav .items:last-child {
     position: static;
     transform: none;
+    font-size: 0;
   }
   .auth-nav {
     display: flex;
@@ -214,8 +216,8 @@
     display: inline-block;
     margin-left: auto;
   }
-  .auth-nav .link:hover,
-  .auth-nav .link:focus {
+  .auth-nav .link.auth:hover,
+  .auth-nav .link.auth:focus {
     color: #404bbf;
   }
   .navigation .items {
@@ -248,7 +250,7 @@
     color: #404bbf;
     transition: color cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .auth-nav .link {
+  .auth-nav .link.auth {
     text-decoration: none;
     color: var(--primery-text-color);
     font-weight: 400;
@@ -257,6 +259,8 @@
     line-height: 1.5;
     display: inline-block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+    margin: 0;
   }
 
   .studio {
@@ -325,6 +329,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
     transition-property: color;
+    margin-bottom: 0;
   }
   .icon-li {
     margin-right: 24px;
