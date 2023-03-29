@@ -336,4 +336,7 @@
     width: 40px;
     height: 40px;
   }
+  .navigation .items:last-child {
+    margin-right: 332px;
+  }
 }
