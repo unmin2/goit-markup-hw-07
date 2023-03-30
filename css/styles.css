@@ -108,7 +108,7 @@ ul {
 }
 .site-nav {
   display: block;
-  margin-bottom: 284px;
+  margin-bottom: 48px;
 }
 .site-nav .link {
   font-family: "Roboto";
@@ -262,6 +262,7 @@ ul {
   margin-left: auto;
   margin-top: 24px;
   color: #ffffff;
+  border: 1px solid #2e2f42;
 }
 .button-menu {
   margin-left: auto;

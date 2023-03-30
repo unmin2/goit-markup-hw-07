@@ -149,8 +149,11 @@
   }
   .auth-nav .items {
     margin-bottom: 12px;
+    position: static;
   }
-
+  .auth-nav .items:last-child {
+    margin-bottom: 0;
+  }
   .auth-nav .link.auth {
     margin: 0;
     padding-top: 0;

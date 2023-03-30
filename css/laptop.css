@@ -196,8 +196,8 @@
   }
   .auth-nav {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-left: auto;
     text-decoration: none;
     color: var(--primery-text-color);
@@ -259,10 +259,13 @@
     line-height: 1.5;
     display: inline-block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 0;
-    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
-
+  .auth-nav .link.auth:last-child {
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
   .studio {
     color: #2e2f42;
     font-family: "Raleway";
@@ -290,12 +293,11 @@
   }
   .section-first {
     text-align: center;
-    padding-bottom: 188px;
     padding-top: 188px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1440px;
-    height: 600px;
+    max-height: 600px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -307,6 +309,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .section-first {
+      height: 600px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -338,5 +341,16 @@
   }
   .navigation .items:last-child {
     margin-right: 332px;
+  }
+  .header-nav.is-open {
+    padding: 0;
+    background: transparent;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    background-color: transparent;
+    max-width: unset;
+    position: static;
+    height: unset;
   }
 }
