@@ -324,6 +324,7 @@
     margin-right: auto;
     max-width: 1440px;
     max-height: 600px;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -336,6 +337,7 @@
     (min-resolution: 2dppx) {
     .section-first {
       height: 600px;
+      background-repeat: no-repeat;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)

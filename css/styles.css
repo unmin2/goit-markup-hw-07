@@ -205,7 +205,8 @@ ul {
   margin-right: auto;
   padding-bottom: 112px;
   padding-top: 112px;
-  width: 100%;
+  min-width: 320px;
+  background-repeat: no-repeat;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -217,6 +218,7 @@ ul {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-first {
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -314,7 +316,7 @@ ul {
 }
 .btn-clo {
   justify-content: center;
-  display: inline-block;
+  display: flex;
   width: 8px;
   height: 8px;
   margin: auto;
@@ -856,6 +858,7 @@ ul {
   padding-bottom: 0;
   padding-top: 96px;
   padding-bottom: 96px;
+  min-width: 320px;
 }
 .footer-p {
   width: 264px;
