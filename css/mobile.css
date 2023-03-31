@@ -1,0 +1,33 @@
+@media screen and (min-width: 480px) {
+  .conteiner {
+    width: 428px;
+  }
+  .first-section {
+    width: 100%;
+  }
+}
+.section-first {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 112px;
+  padding-top: 112px;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mob.jpg);
+  background-color: var(--title-text-color);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-first {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mob2x.jpg);
+  }
+}
