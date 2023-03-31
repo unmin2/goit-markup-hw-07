@@ -156,7 +156,7 @@
   .auth-nav .items:last-child {
     margin-bottom: 0;
   }
-  .auth-nav .link-auth {
+  .auth-nav .items .link-auth {
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;

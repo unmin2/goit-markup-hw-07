@@ -5,6 +5,13 @@
   .first-section {
     width: 100%;
   }
+  .header-nav {
+    width: 100%;
+  }
+  .navigation {
+    display: block;
+    margin-bottom: 364px;
+  }
 }
 
 .section-first {

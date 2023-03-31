@@ -256,7 +256,7 @@
     color: #404bbf;
     transition: color cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .auth-nav .link-auth {
+  .auth-nav .items .link-auth {
     text-decoration: none;
     color: var(--primery-text-color);
     font-weight: 400;

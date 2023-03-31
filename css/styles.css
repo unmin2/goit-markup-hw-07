@@ -121,7 +121,7 @@ ul {
 .site-nav .link:last-child {
   margin-bottom: 0;
 }
-.auth-nav .link-auth {
+.auth-nav .items .link-auth {
   position: relative;
   font-family: "Roboto";
   font-style: normal;
