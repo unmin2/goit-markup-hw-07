@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     column-gap: 24px;
   }
+
   .features-list li {
     width: calc((100% - 24px) / 2);
   }
