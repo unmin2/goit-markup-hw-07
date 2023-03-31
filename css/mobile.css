@@ -10,7 +10,13 @@
   }
   .navigation {
     display: block;
-    margin-bottom: 364px;
+  }
+  .modal {
+    width: 392px;
+    margin-top: 24px;
+  }
+  .icon-li-mob {
+    margin-right: 56px;
   }
 }
 
