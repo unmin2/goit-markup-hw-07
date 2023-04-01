@@ -332,7 +332,6 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/peopleoffice.jpg);
-    background-color: var(--title-text-color);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),

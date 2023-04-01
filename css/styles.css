@@ -104,6 +104,9 @@ ul {
 }
 .header-page {
   border-bottom: 1px solid #e7e9fc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .main-nav {
   display: flex;
@@ -205,7 +208,7 @@ ul {
   margin-right: auto;
   padding-bottom: 112px;
   padding-top: 112px;
-  min-width: 320px;
+  width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
