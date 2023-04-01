@@ -404,4 +404,30 @@
     color: rgba(77, 90, 229, 1);
     margin-left: 4px;
   }
+  .label-footer {
+    margin-right: 24px;
+  }
+  .button-tg {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button-tg:focus,
+  .button-tg:focus {
+    background: #404bbf;
+  }
 }

@@ -1,4 +1,6 @@
 html {
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
 }
 *,
@@ -14,6 +16,8 @@ html {
 }
 
 body {
+  width: 100%;
+  max-width: 100%;
   margin: 0;
   background-color: #ffffff;
   color: var(--primery-text-color);
@@ -951,7 +955,6 @@ ul {
   box-sizing: border-box;
   margin-bottom: 16px;
   border-radius: 4px;
-  margin-right: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .label-footer:hover,
@@ -985,6 +988,10 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.button-tg:focus,
+.button-tg:focus {
+  background: #404bbf;
 }
 .label-text {
   color: #ffffff;
