@@ -239,11 +239,6 @@
     color: #404bbf;
   }
 
-  .auth-nav .link-auth:hover,
-  .auth-nav .link-auth:focus {
-    color: #404bbf;
-  }
-
   .site-nav .link.active::after {
     content: "";
     display: block;
@@ -289,10 +284,15 @@
     margin-bottom: 24px;
     position: static;
   }
-  .auth-nav .link.auth:hover,
-  .auth-nav .link.auth:focus {
+  .auth-nav .items .link.auth:hover,
+  .auth-nav .items .link.auth:focus {
     color: #404bbf;
   }
+  .auth-nav .items .link-auth:hover,
+  .auth-nav .items .link-auth:focus {
+    color: #404bbf;
+  }
+
   .studio {
     color: #2e2f42;
     font-family: "Raleway";
