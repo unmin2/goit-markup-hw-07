@@ -195,12 +195,12 @@
     display: inline-block;
     margin-left: auto;
   }
-  .auth-nav .items .link-auth:hover,
-  .auth-nav .items .link-auth:focus {
+  .auth-nav .link-auth:hover,
+  .auth-nav .link-auth:focus {
     color: #404bbf;
   }
-  .auth-nav .items .link.auth:hover,
-  .auth-nav .items .link.auth:focus {
+  .auth-nav .link.auth:hover,
+  .auth-nav .link.auth:focus {
     color: #404bbf;
   }
   .navigation .items {

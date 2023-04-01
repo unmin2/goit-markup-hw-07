@@ -289,8 +289,8 @@
     margin-bottom: 24px;
     position: static;
   }
-  .auth-nav .link .auth:hover,
-  .auth-nav .link .auth:focus {
+  .auth-nav .link.auth:hover,
+  .auth-nav .link.auth:focus {
     color: #404bbf;
   }
   .studio {
