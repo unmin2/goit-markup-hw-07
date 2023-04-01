@@ -243,10 +243,7 @@
   .auth-nav .link-auth:focus {
     color: #404bbf;
   }
-  .auth-nav .link .auth:hover,
-  .auth-nav .link .auth:focus {
-    color: #404bbf;
-  }
+
   .site-nav .link.active::after {
     content: "";
     display: block;
@@ -286,11 +283,15 @@
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    display: inline-block;
+    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 24px;
     margin-bottom: 24px;
     position: static;
+  }
+  .auth-nav .link .auth:hover,
+  .auth-nav .link .auth:focus {
+    color: #404bbf;
   }
   .studio {
     color: #2e2f42;
@@ -320,10 +321,11 @@
   .section-first {
     text-align: center;
     padding-top: 188px;
+    padding-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1440px;
-    max-height: 600px;
+    max-height: unset;
     background-repeat: no-repeat;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -336,7 +338,6 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .section-first {
-      height: 600px;
       background-repeat: no-repeat;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -399,5 +400,9 @@
 
   .button-send {
     margin-top: 24px;
+  }
+  .privacy {
+    color: rgba(77, 90, 229, 1);
+    margin-left: 4px;
   }
 }

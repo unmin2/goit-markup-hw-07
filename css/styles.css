@@ -212,7 +212,6 @@ ul {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/mob.jpg);
-  background-color: var(--title-text-color);
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -459,7 +458,8 @@ ul {
 }
 .privacy {
   color: rgba(77, 90, 229, 1);
-  margin-left: 4px;
+  margin: 0;
+  line-height: 1;
 }
 .button-send {
   width: 169px;
@@ -858,7 +858,7 @@ ul {
   padding-bottom: 0;
   padding-top: 96px;
   padding-bottom: 96px;
-  min-width: 320px;
+  width: 100%;
 }
 .footer-p {
   width: 264px;

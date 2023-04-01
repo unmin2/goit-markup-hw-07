@@ -19,6 +19,10 @@
   .icon-li-mob {
     margin-right: 56px;
   }
+  .privacy {
+    color: rgba(77, 90, 229, 1);
+    margin-left: 4px;
+  }
 }
 
 .section-first {
